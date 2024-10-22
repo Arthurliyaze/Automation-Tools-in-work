@@ -10,4 +10,7 @@ Codes for automatic generation of the files and texts during work using Python.
 2. Convert the bus SSWG name to the long name for a single bus.
 3. Convert the bus SSWG name to the long name for a branch.
 4. Convert contigency to SSWG form and long name form.
+## The Jupyter notebook "vrt" consists sections for:
+1. Create the ini file for the VRT in DMView 3.3
+2. 
 ## The Jupyter notebook "work" is the previous codes as backup.

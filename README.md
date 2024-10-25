@@ -11,7 +11,9 @@ Codes for automatic generation of the files and texts during work using Python.
 3. Convert the bus SSWG name to the long name for a branch.
 4. Convert contigency to SSWG form and long name form.
 ## The Jupyter notebook "vrt" consists sections for:
-1. Create the ini file for the VRT in [DMView 3.3](https://sites.google.com/view/dmview/home)
-2. Run the VRT in [DMView 3.3](https://sites.google.com/view/dmview/home) by codes.
-3. Plot the VRT results include active power, reactive power and voltage at the project generator bus for all test settings.
+1. Create the folders needed for all VRT projects.
+2. Create the ini file for the VRT in [DMView 3.3](https://sites.google.com/view/dmview/home)
+3. Run the VRT in [DMView 3.3](https://sites.google.com/view/dmview/home) by codes.
+4. Plot the VRT results include active power, reactive power and voltage at the project generator bus for all test settings.
+5. Output the plots to Word and generate a report.
 ## The Jupyter notebook "work" is the previous codes as backup.

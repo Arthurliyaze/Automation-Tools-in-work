@@ -12,8 +12,8 @@ Codes for automatic generation of the files and texts during work using Python.
 4. Convert contigency to SSWG form and long name form.
 ## The Jupyter notebook "vrt" consists sections for:
 1. Create the folders needed for all VRT projects.
-2. Create the ini file for the VRT in [DMView 3.3](https://sites.google.com/view/dmview/home)
-3. Run the VRT in [DMView 3.3](https://sites.google.com/view/dmview/home) by codes.
-4. Plot the VRT results include active power, reactive power and voltage at the project generator bus for all test settings.
-5. Output the plots to Word and generate a report.
-## The Jupyter notebook "work" is the previous codes as backup.
+2. Defines functions to check if the project has storage, solar, or wind.
+3. Defines function to create the ini file for the VRT in [DMView 3.3](https://sites.google.com/view/dmview/home)
+4. Define function to run the VRT in [DMView 3.3](https://sites.google.com/view/dmview/home) by codes.
+5. Define function to plot the VRT results include active power, reactive power and voltage at the project generator bus for all test settings.
+6. Output the plots to Word and generate a report.

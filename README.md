@@ -14,7 +14,7 @@ Codes for automatic generation of the files and texts during work using Python.
 1. Check the PSSE and psspy function.
 2. Create the folders needed for all VRT projects.
 3. Defines functions to check if the project has storage, solar, or wind.
-4. Defines function to create the ini file for the VRT in [DMView 3.3](https://sites.google.com/view/dmview/home). Need to run the 3rd section.
-5. Define function to run the VRT in [DMView 3.3](https://sites.google.com/view/dmview/home) by codes. Need to run the 3rd section.
+4. Defines function to create the ini file for the VRT in [DMView 3.3.1](https://sites.google.com/view/dmview/home). Need to run the 3rd section.
+5. Define function to run the VRT in [DMView 3.3.1](https://sites.google.com/view/dmview/home) by codes. Need to run the 3rd section.
 6. Define function to plot the VRT results include active power, reactive power and voltage at the project POI and terminal bus for all test settings.  Need to run the 3rd section.
 7. Output the plots to Word and generate a report. Need to run the 3rd section.

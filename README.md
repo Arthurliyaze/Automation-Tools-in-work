@@ -77,7 +77,8 @@ To run the code in this repository, you will need Python and several dependencie
    git clone https://github.com/Arthurliyaze/Automation-Tools-in-work.git
    cd Automation-Tools-in-work
 2. **Install dependencies**:
-   Install the required Python packages using pip. It is recommended to use a virtual environment.The requirements.txt file should include: pandas, numpy, matplotlib, psspy (for PSSE functions), python-docx (for generating Word reports)
+   Install the required Python packages using pip. It is recommended to use a virtual environment.
+   The requirements.txt file should include: pandas, numpy, matplotlib, psspy (for PSSE functions), python-docx (for generating Word reports)
 3. **Install DMView 3.3.1**:
    For running the VRT simulations, download and install [DMView 3.3.1](https://sites.google.com/view/dmview/home) following the instructions on their website.
 

@@ -7,6 +7,7 @@ The project is organized into different folders and notebooks, each designed to 
 ## Table of Contents
 - [Automation Tools in Work](#automation-tools-in-work)
   - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
   - [Overview](#overview)
   - [Folders and Notebooks](#folders-and-notebooks)
     - [AEP Steady State](#aep-steady-state)
@@ -15,9 +16,26 @@ The project is organized into different folders and notebooks, each designed to 
       - [`write_report`](#write_report)
     - [AEP Dynamic](#aep-dynamic)
       - [`vrt`](#vrt)
-  - [Installation](#installation)
   - [Contributing](#contributing)
 
+## Installation
+
+To run the code in this repository, you will need Python and several dependencies installed. The steps for installation are as follows:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Arthurliyaze/Automation-Tools-in-work.git
+   cd Automation-Tools-in-work
+2. **Install dependencies**:
+   Install the required Python packages using pip. It is recommended to use a virtual environment.
+   
+   The requirements.txt file should include: 
+   
+   pandas, numpy, matplotlib, psspy (for PSSE functions), python-docx (for generating Word reports).
+   
+3. **Install DMView 3.3.1**:
+   For running the VRT simulations, download and install [DMView 3.3.1](https://sites.google.com/view/dmview/home) following the instructions on their website.
+   
 ## Overview
 
 This project automates several tasks related to power grid modeling, focusing on the ERCOT grid. The main functionalities include:
@@ -67,20 +85,6 @@ This notebook helps automate the VRT project setup, testing, and result generati
 5. **Run VRT Simulation**: Defines a function to run the VRT simulation in **DMView 3.3.1** via code, using the generated `.ini` file. The third section must be run first.
 6. **Plot VRT Results**: Plots the VRT results, including active power, reactive power, and voltage at the Point of Interconnection (POI) and the terminal bus for all test settings. The third section must be run first.
 7. **Generate Report**: Exports the plots to a Word document and generates a comprehensive report, including the results of the VRT simulations. The third section must be run first.
-
-## Installation
-
-To run the code in this repository, you will need Python and several dependencies installed. The steps for installation are as follows:
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Arthurliyaze/Automation-Tools-in-work.git
-   cd Automation-Tools-in-work
-2. **Install dependencies**:
-   Install the required Python packages using pip. It is recommended to use a virtual environment.
-   The requirements.txt file should include: pandas, numpy, matplotlib, psspy (for PSSE functions), python-docx (for generating Word reports)
-3. **Install DMView 3.3.1**:
-   For running the VRT simulations, download and install [DMView 3.3.1](https://sites.google.com/view/dmview/home) following the instructions on their website.
 
 ## Contributing
 

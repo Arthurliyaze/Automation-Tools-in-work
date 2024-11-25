@@ -31,7 +31,7 @@ To run the code in this repository, you will need Python and several dependencie
    
    The requirements.txt file should include: 
    
-   `pandas`, `numpy`, `matplotlib`, `psspy`(for PSSE functions), `python-docx`(for generating Word reports), `bs4`(for checking html), `slenium`.
+   `pandas`, `numpy`, `matplotlib`, `psspy`(for PSSE functions), `python-docx`(for generating Word reports), `bs4`(for checking html), `selenium`.
    
 3. **Install DMView 3.3.1**:
    For running the VRT simulations, download and install [DMView 3.3.1](https://sites.google.com/view/dmview/home) following the instructions on their website.

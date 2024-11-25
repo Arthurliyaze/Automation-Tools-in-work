@@ -1,6 +1,6 @@
 # Automation Tools in Work
 
-This repository contains Python code and Jupyter notebooks for automating the generation of system files, contingency data, and reports for power grid analysis, particularly focused on ERCOT (Electric Reliability Council of Texas). The tools include functions to process grid data, create reports, and run simulations using VRT (Voltage and Reactive Testing) tools in DMView 3.3.1.
+This repository contains Python code and Jupyter notebooks for automating the generation of system files, contingency data, and reports for power grid analysis, particularly focused on ERCOT (Electric Reliability Council of Texas). The tools include functions to process grid data, create reports, and run simulations using VRT (Voltage Ride-Through Testing) tools in DMView 3.3.1.
 
 The project is organized into different folders and notebooks, each designed to handle specific tasks such as mapping, file preparation, report generation, and VRT simulations.
 
@@ -31,7 +31,7 @@ To run the code in this repository, you will need Python and several dependencie
    
    The requirements.txt file should include: 
    
-   pandas, numpy, matplotlib, psspy (for PSSE functions), python-docx (for generating Word reports).
+   `pandas`, `numpy`, `matplotlib`, `psspy`(for PSSE functions), `python-docx`(for generating Word reports).
    
 3. **Install DMView 3.3.1**:
    For running the VRT simulations, download and install [DMView 3.3.1](https://sites.google.com/view/dmview/home) following the instructions on their website.
@@ -43,9 +43,9 @@ This project automates several tasks related to power grid modeling, focusing on
 - **Mapping**: Generate county-level maps for Texas and their adjacency information.
 - **File Preparation**: Automatically create subsystem, monitoring, and contingency files for grid analysis.
 - **Report Generation**: Convert bus names, find bus information, and generate contingency reports.
-- **VRT Simulation**: Run voltage and reactive power testing (VRT) simulations, plot results, and generate reports.
+- **VRT Simulation**: Run Voltage Ride-Through testing (VRT) simulations, plot results, and generate reports.
 
-The project is split into two primary categories: **AEP Steady State** (for static grid data) and **AEP Dynamic** (for dynamic VRT simulations).
+The project is split into two primary categories: **AEP Steady State** (for static grid data) and **AEP Dynamic** (for VRT simulations).
 
 ## Folders and Notebooks
 
@@ -74,7 +74,7 @@ This notebook automates the generation of reports based on grid data:
 
 ### AEP Dynamic
 
-This folder contains Jupyter notebooks for dynamic simulation tasks related to voltage and reactive power testing (VRT).
+This folder contains Jupyter notebooks for dynamic simulation tasks related to Voltage Ride-Through testing (VRT).
 
 #### `vrt`
 This notebook helps automate the VRT project setup, testing, and result generation:

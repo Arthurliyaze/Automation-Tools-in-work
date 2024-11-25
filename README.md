@@ -1,6 +1,6 @@
 # Automation Tools in Work
 
-This repository contains Python code and Jupyter notebooks for automating the generation of system files, contingency data, and reports for power grid analysis, particularly focused on ERCOT (Electric Reliability Council of Texas). The tools include functions to process grid data, create reports, and run simulations using VRT (Voltage Ride-Through Testing) tools in DMView 3.3.1.
+This repository contains Python code and Jupyter notebooks for automating the generation of system files, contingency data, and reports for power grid analysis, particularly focused on ERCOT (Electric Reliability Council of Texas). The tools include functions to process grid data, create reports, and run simulations using Voltage Ride-Through Testing (VRT) tools in DMView 3.3.1.
 
 The project is organized into different folders and notebooks, each designed to handle specific tasks such as mapping, file preparation, report generation, and VRT simulations.
 
@@ -31,7 +31,7 @@ To run the code in this repository, you will need Python and several dependencie
    
    The requirements.txt file should include: 
    
-   `pandas`, `numpy`, `matplotlib`, `psspy`(for PSSE functions), `python-docx`(for generating Word reports).
+   `pandas`, `numpy`, `matplotlib`, `psspy`(for PSSE functions), `python-docx`(for generating Word reports), `bs4`(for checking html), `slenium`.
    
 3. **Install DMView 3.3.1**:
    For running the VRT simulations, download and install [DMView 3.3.1](https://sites.google.com/view/dmview/home) following the instructions on their website.
@@ -45,7 +45,7 @@ This project automates several tasks related to power grid modeling, focusing on
 - **Report Generation**: Convert bus names, find bus information, and generate contingency reports.
 - **VRT Simulation**: Run Voltage Ride-Through testing (VRT) simulations, plot results, and generate reports.
 
-The project is split into two primary categories: **AEP Steady State** (for static grid data) and **AEP Dynamic** (for VRT simulations).
+The project is split into two primary categories: **AEP Steady State** (for steady state study) and **AEP Dynamic** (for dynamic study).
 
 ## Folders and Notebooks
 
@@ -68,9 +68,9 @@ This notebook helps automate the creation of files needed for grid modeling:
 #### `write_report`
 This notebook automates the generation of reports based on grid data:
 1. **Find Bus Information**: Retrieves bus details based on bus name or number from the ERCOT SSWG case.
-2. **Convert Bus Names**: Converts bus names from the SSWG format to long names for individual buses.
-3. **Convert Branch Names**: Converts bus names from the SSWG format to long names for branches.
-4. **Contingency Reports**: Converts contingency data to both SSWG format and long name format for inclusion in reports.
+2. **Convert Bus Names**: Converts bus names from the TARA result format to long names for individual buses.
+3. **Convert Branch Names**: Converts bus names from the TARA result format to long names for branches.
+4. **Contingency Reports**: Converts contingency data to both TARA result format and long name format for inclusion in reports.
 
 ### AEP Dynamic
 

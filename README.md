@@ -1,6 +1,6 @@
 # Automation Tools in Work
 
-This repository contains Python code and Jupyter notebooks for automating the generation of system files, contingency data, and reports for power grid analysis, particularly focused on ERCOT (Electric Reliability Council of Texas). The tools include functions to process grid data, create reports, and run simulations using Voltage Ride-Through Testing (VRT) tools in DMView 3.3.1.
+This repository contains Python code and Jupyter notebooks for automating the generation of system files, contingency data, and reports for power grid analysis, particularly focused on ERCOT (Electric Reliability Council of Texas). The tools include functions to process grid data, create reports, and run simulations using Voltage Ride-Through Testing (VRT) tools in DMView 3.3.2.
 
 The project is organized into different folders and notebooks, each designed to handle specific tasks such as mapping, file preparation, report generation, and VRT simulations.
 

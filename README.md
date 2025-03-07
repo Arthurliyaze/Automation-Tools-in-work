@@ -29,7 +29,7 @@ To run the code in this repository, you will need Python and several dependencie
 2. **Install dependencies**:
    Install the required Python packages using pip. It is recommended to use a virtual environment.
    
-   The requirements.txt file should include: 
+   The required packages should include: 
    
    `pandas`, `numpy`, `matplotlib`, `psspy`(for PSSE functions), `python-docx`(for generating Word reports), `bs4`(for checking html), `selenium`.
    

@@ -172,9 +172,9 @@ There are also some **commented-out sections** of code that define other subsyst
 
 Although these lines are commented out, they show how the code could define additional subsystems (e.g., a subsystem for renewable energy buses) and monitor different electrical quantities such as terminal voltage (`status5 = 4`), active power (`status5 = 2`), and reactive power (`status5 = 3`). These settings would help track a broader range of parameters across different parts of the power system.
 ### Step 2: Write the Contingencies
-The scripts (`Px_xx.py`) are  used to define different klind of faults in a power system model using PSSE, with fault clearing and possible reclosure. 
+The scripts (`Px_xx.py`) are  used to define different kind of faults in a power system model using PSSE, with fault clearing and possible reclosure. 
 
-The advantage of writing contingencies in Python over IDV is greater flexibility and customization. In addition, with the given example of contingencies in different category, the time to repair the contingency list will be reduced.
+The advantage of writing contingencies in Python over IDV is greater flexibility and customization. In addition, with the given example of contingencies in different category, the time to prepair the contingency list will be reduced.
 
 Here's an example and breakdown of the major steps in a contigency python file and what each section does:
 
